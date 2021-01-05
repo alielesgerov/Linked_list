@@ -45,9 +45,8 @@ template<typename T>
 class LinkedList
 {
 	Node<T>* head;
-	int count;
 public:
-	LinkedList():head(nullptr),count(0){}
+	LinkedList():head(nullptr){}
 	Node<T>* getNode(size_t index)
 	{
 		Node<T>* temp = head;
